@@ -1,0 +1,29 @@
+{
+  "name": "upstat-cli",
+  "version": "0.1.0",
+  "description": "Monitor your UpStat monitors from the terminal",
+  "main": "dist/index.js",
+  "bin": {
+    "upstat": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["upstat", "uptime", "monitoring", "cli"],
+  "author": "Yago",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.10",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
