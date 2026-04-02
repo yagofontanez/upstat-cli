@@ -8,7 +8,7 @@ import * as path from "path";
 import * as os from "os";
 
 const CONFIG_PATH = path.join(os.homedir(), ".upstat");
-const BASE_URL = "https://upstat-backend.onrender.com/api/v1";
+const BASE_URL = "https://api.upstat.online/api/v1";
 const REFRESH_INTERVAL = 30;
 
 type Lang = "pt" | "en";
